@@ -70,10 +70,19 @@ body{
 
 .vector {
   width: 96vw;  
-  height: 25vh;
-  margin-top: -10%;
+  height: 20vh;
+  margin-top: -12%;
 }
 
 .bus {
   width: 50%;
+  margin-left: -5%;
+  margin-top: 10%;
+  animation: moveRight 7s linear infinite;
+}
+
+/* animation */
+
+@keyframes moveRight{
+  100%{transform:translateX(375px)}
 }
