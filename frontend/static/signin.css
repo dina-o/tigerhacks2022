@@ -1,3 +1,5 @@
+@media (max-height: 670px) and (max-width: 380px) {
+
 body{
     background: #24233a;
   }
@@ -89,3 +91,52 @@ body{
     width: 25px;
     margin-left: 5%;
   }
+}
+
+@media (min-width: 381px) {
+
+  .checkmark {
+    visibility: hidden;
+  }
+  
+  .boxlabels{
+    visibility: hidden;
+  }
+  
+  .textinput {
+    visibility: hidden;
+  }
+  
+  img {
+    visibility: hidden;
+  }
+
+  button {
+    visibility: hidden;
+  }
+  }
+  
+  @media (min-height: 671px) {
+  
+    .checkmark {
+      visibility: hidden;
+    }
+    
+    .boxlabels{
+      visibility: hidden;
+    }
+    
+    .textinput {
+      visibility: hidden;
+    }
+    
+    img {
+      visibility: hidden;
+    }
+
+    button {
+      visibility: hidden;
+    }
+  
+    }
+  

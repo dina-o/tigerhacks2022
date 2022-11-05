@@ -1,3 +1,5 @@
+@media (max-height: 670px) and (max-width: 380px) {
+
 body{
     background: rgb(32, 36, 75);
   }
@@ -53,3 +55,5 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
+
+}

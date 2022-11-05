@@ -1,4 +1,6 @@
-body{
+@media (max-height: 670px) and (max-width: 380px) {
+
+  body{
     background: #24233a;
   }
   .star{
@@ -86,3 +88,60 @@ body{
 @keyframes moveRight{
   100%{transform:translateX(375px)}
 }
+
+}
+
+@media (min-width: 381px) {
+
+.moon {
+  visibility: hidden;
+}
+
+.bubble1{
+  visibility: hidden;
+}
+
+.bubble2 {
+  visibility: hidden;
+}
+
+.bus {
+  visibility: hidden;
+}
+
+.vector {
+  visibility: hidden;
+}
+
+.logo {
+  visibility:hidden;
+}
+}
+
+@media (min-height: 671px) {
+
+  .moon {
+    visibility: hidden;
+  }
+  
+  .bubble1{
+    visibility: hidden;
+  }
+  
+  .bubble2 {
+    visibility: hidden;
+  }
+  
+  .bus {
+    visibility: hidden;
+  }
+  
+  .vector {
+    visibility: hidden;
+  }
+
+  .logo {
+    visibility:hidden;
+  }
+  }
+
