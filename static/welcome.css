@@ -61,7 +61,7 @@
   }
 
   .bubble1 {
-    margin-top: -10%;
+    margin-top: -5%;
     margin-left: -5%;
   }
 
@@ -79,7 +79,7 @@
 .bus {
   width: 50%;
   margin-left: -5%;
-  margin-top: 10%;
+  margin-top: 6%;
   animation: moveRight 7s linear infinite;
 }
 
