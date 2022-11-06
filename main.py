@@ -56,7 +56,7 @@ def validate_phone(phone):
     except (phonenumbers.phonenumberutil.NumberParseException, ValueError):
         return None
 
-@app.route('/success', methods=['GET', 'POST'])
+@app.route('/welcome', methods=['GET', 'POST'])
 def success():
     if request.method == 'POST':
         return redirect(url_for('form'))
