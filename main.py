@@ -83,7 +83,7 @@ def track(phone, destination):
     longitude = f.readline()
     latitude = f.readline()
     curr_coords = (longitude, latitude)
-    if geodesic(curr_coords, destination) <= 7: #if they're within the threshold of 7km, text user
+    if geodesic(curr_coords, destination) <= 10: #if they're within the threshold of 10km, text user
         print("RECEIVING TEXT MESSAGE SOON ... !!!")
         message(phone)
         users[phone][2] = False
