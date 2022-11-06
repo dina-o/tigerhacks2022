@@ -1,5 +1,9 @@
-# ignore
+# ignore pycache
 __pycache__
+
+# Ignore pickles
+.pickle
+.pickles
 
 # environments
 .env
