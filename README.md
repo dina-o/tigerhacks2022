@@ -1,4 +1,4 @@
-## Setup for eazzZy: 
+## Setup for eazzZy sleep: 
 
 cd /tigerhacks2022
 $ python main.py 
