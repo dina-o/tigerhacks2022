@@ -31,17 +31,17 @@
     
     <form class="form" action="/" method="POST">
         <label class="boxlabels" style="font-family: 'League Spartan'; font-size:20px; color:white" for="fname">name</label>
-        <input class= "textinput" style="font-family: 'League Spartan'; font-size: 16px" type="text" id="fname" name="name" placeholder="Leonardo Da Vinci">
+        <input class= "textinput" style="font-family: 'League Spartan'; font-size: 16px" type="text" id="fname" name="name" placeholder="Leonardo Da Vinci" autocomplete="off">
 
         <label class="boxlabels" style="font-family: 'League Spartan'; font-size:20px; color:white" for="phone">phone #</label>
-        <input class= "textinput" style="font-family: 'League Spartan'; font-size: 16px" type="tel" id="phone" name="phone" pattern="+1[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+1XXXXXXXXXXX">
+        <input class= "textinput" style="font-family: 'League Spartan'; font-size: 16px" type="tel" id="phone" name="phone" pattern="+1[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+1XXXXXXXXXXX" autocomplete="off">
 
-        <label class="boxlabels" style="font-family: 'League Spartan'; font-size:20px; color:white" for="location">destination</label>
-        <input class= "textinput" style="font-family: 'League Spartan'; font-size: 16px" type="text" name="destination" placeholder="Rue de Rivoli, 75001 Paris, France">
+        <label class="boxlabels" style="font-family: 'League Spartan'; font-size:20px; color:white" for="location" autocomplete="off">destination</label>
+        <input class= "textinput" style="font-family: 'League Spartan'; font-size: 16px" type="text" name="destination" placeholder="Rue de Rivoli, 75001 Paris, France" autocomplete="off">
 
     <div>
     <input style="display: inline-block" class="checkmark" type="checkbox" value="accept">
-    <h4 style="font-family: 'League Spartan'; color: white; font-weight: 200; display: inline-block; margin-left: 5%;" class="checkmark-label" for="vehicle1"> I accept that <em>eazzZy</em> sleep will <br> track your current location</h4><br>
+    <h4 style="font-family: 'League Spartan'; color: white; font-weight: 200; display: inline-block; margin-left: 5%;" class="checkmark-label" for="vehicle1"> I accept that <em>eazzZy sleep</em> will <br> track your current location</h4><br>
     </div>
 
     <button style= "font-family: 'League Spartan'; font-size:20px; color:#403E54; background-color: #AFAEB6; font-weight: 1000; padding: 10px 10px; outline: 0; border-radius: 5px; border-color: transparent; margin-left: 50%; margin-top: 3%;" formaction="/" type="submit">Ready to Snooze</button>
