@@ -10,8 +10,8 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 #twilio account variables
-account_sid = 'ACd990490d592d8154398916f4bab4c306'
-auth_token = '53701984712df9c30edd00b700d537b1'
+account_sid = 'xxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxxx'
 client = Client(account_sid, auth_token)
 twilio_phone = '+19896569349'
 
